@@ -1,0 +1,84 @@
+body {
+    font-family: verdana;
+    /* text-align: center; */
+    justify-content: center;
+    color: lightgray;
+    background-color: navy;
+    background-image: -moz-element()
+}
+
+
+/* ul/.navbar-fixed- is for the invisible bar accross the navigation placing it above the margins */
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+    background-color: navy;
+    overflow: hidden;
+}
+
+
+/* li is for the navigation bar contents calling them to float */
+
+li {
+    float: left;
+}
+
+
+/* li a is for the navigation bar blocks */
+
+li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 24px 26px 26px 26px;
+    margin-left: 15px;
+    min-height: 1vh;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+/* li a is the black blocks that appear when hovering over the nav bar  */
+
+li a:hover {
+    background-color: rgb(0, 0, 78);
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.mainborder {
+    border: 5px solid lightgray;
+    margin: 2.5%, 5%;
+    padding: 0%;
+    /* align-items: center;
+    align-content: center; */
+    justify-content: space-around;
+    /* justify-items: center; */
+    border-radius: 15px;
+    width: 800px;
+    height: 500px;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+
+#link1 {
+    float: left;
+    margin: 80px, 0px;
+    padding: 60px, 0px;
+}
+
+#link2 {
+    float: right;
+    margin: 100x, 80px;
+    padding: 60px, 0px;
+    height: 100%;
+}
